@@ -2,6 +2,8 @@
 
 A custom landing page inspired by Cartoon Network's *Steven Universe*, created as part of [The Odin Project](https://www.theodinproject.com/) Web Development Foundations curriculum.
 
+**Live Demo:** [https://ht-rmpvx.github.io/steven-universe-landing-page/](https://ht-rmpvx.github.io/steven-universe-landing-page/)
+
 ## Overview
 
 This project builds a complete landing page from scratch using HTML5 and CSS Flexbox. The design showcases key characters from the series (Steven, Garnet, Amethyst, and Pearl), themed color palettes, and a call-to-action section.
