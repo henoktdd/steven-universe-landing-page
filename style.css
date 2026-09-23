@@ -1,12 +1,30 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.header,
+.top-content,
+.footer{
+    background-color:#1B1B3A;
+}
+
 body{
     display:flex;
     flex-direction:column;
+    height:1912px;
+    weight:1440px;
 
 }
 
 .header{
     display:flex;
     justify-content:space-between;
+    align-items: center;
+    padding:3px 15px;
 }
 
 .header-links{
@@ -14,40 +32,169 @@ body{
     gap:15px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 .main-content{
     display:flex;
     flex-direction:column;
+    flex:1;
+    
+
+   
 }
+
 
 .top-content{
     display:flex;
+    height:27.5%;
+    padding:150px;
+    gap:50px;
+    align-items: center;
+    
 }
 
 .left-content{
+    display: flex;
+    flex-direction:column ;
+    gap:10px;
     
+}
+
+h1{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+.top-paragraph{
+    color:#e5e7eb;
+    font-size: 18px;
+    
+}
+
+button{
+    background-color:rgb(52, 127, 226);
+    border:0px;
+    padding:10px;
+    width:140px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius:10px;
 }
 
 .middle-content{
     display:flex;
     flex-direction:column;
+    height:27.5%;
+    padding: 50px 200px;
+    gap:60px;
+    align-items: center;
+    
+    
+}
+
+h2{
+   font-size: 35px;
+   color:#1f2937;
 }
 
 .profile-cards{
     display:flex;
+    gap:50px;
 }
 
-.card{
+.card img{
+    height:200px;
+    width:200px;
+    border:5px solid rgb(52, 127, 226);
+   border-radius: 10%
+
+}
+
+.card p{
+    display: flex;
+    flex-wrap:wrap;
+    color: #647081;
+    text-align: center;
+}
+
+
+.bottom-content{
+    height:25%;
+    background-color:#e5e7eb;
+    padding:150px 200px;
+    
+}
+
+.quote{
+    font-size:36px;
+    color:#1f2937;
+    weight:300;
+    font-style: italic;
+}
+
+.author{
+    display:flex;
+    font-weight:bold;
+    justify-content: flex-end;
+    font-size:25px;
+    color:#1f2937;
 
 }
 
 .sign-up-section{
     display:flex;
+    height:20%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.box{
+    display:flex;
+    background-color:rgb(0, 110, 255);
+    border-radius: 5px;
+    height:150px;
+    width:900px;
+    padding:40px;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+
 }
 
 .bottom-left-section{
     
+    
+}
+
+.bottom-button{
+    height:35px;
+    padding:5px;
+    border: 2px solid white;
+}
+
+h3,
+.bottom-paragraph{
+    color:white;
 }
 
 .footer{
+    display:flex;
+    min-height:90px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:15px;
+
 
 }
