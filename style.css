@@ -16,7 +16,6 @@ body{
     display:flex;
     flex-direction:column;
     height:1912px;
-    weight:1440px;
 
 }
 
@@ -24,7 +23,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding:3px 15px;
+    padding:5px 80px;
 }
 
 .header-links{
@@ -43,10 +42,7 @@ a{
 .main-content{
     display:flex;
     flex-direction:column;
-    flex:1;
-    
-
-   
+    flex:1; 
 }
 
 
@@ -55,8 +51,7 @@ a{
     height:27.5%;
     padding:150px;
     gap:50px;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .left-content{
@@ -74,8 +69,7 @@ h1{
 
 .top-paragraph{
     color:#e5e7eb;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 
 button{
@@ -95,9 +89,7 @@ button{
     height:27.5%;
     padding: 50px 200px;
     gap:60px;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 
 h2{
@@ -114,8 +106,7 @@ h2{
     height:200px;
     width:200px;
     border:5px solid rgb(52, 127, 226);
-   border-radius: 10%
-
+   border-radius: 10%;
 }
 
 .card p{
@@ -123,20 +114,20 @@ h2{
     flex-wrap:wrap;
     color: #647081;
     text-align: center;
+    width:200px;
 }
 
 
 .bottom-content{
     height:25%;
     background-color:#e5e7eb;
-    padding:150px 200px;
-    
+    padding:150px 200px;   
 }
 
 .quote{
     font-size:36px;
     color:#1f2937;
-    weight:300;
+    font-weight:300;
     font-style: italic;
 }
 
@@ -153,9 +144,7 @@ h2{
     display:flex;
     height:20%;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 .box{
@@ -167,15 +156,12 @@ h2{
     padding:40px;
     justify-content:space-around;
     align-items: center;
-    
-    
-
 }
 
-.bottom-left-section{
+/*.bottom-left-section{
     
     
-}
+}*/
 
 .bottom-button{
     height:35px;
@@ -195,6 +181,4 @@ h3,
     align-items: center;
     color:white;
     font-size:15px;
-
-
 }
