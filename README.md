@@ -2,7 +2,7 @@
 
 A custom landing page inspired by Cartoon Network's *Steven Universe*, created as part of [The Odin Project](https://www.theodinproject.com/) Web Development Foundations curriculum.
 
-**Live Demo:** [https://ht-rmpvx.github.io/steven-universe-landing-page/](https://ht-rmpvx.github.io/steven-universe-landing-page/)
+**Live Demo:** https://henoktdd.github.io/steven-universe-landing-page/
 
 ## Overview
 
